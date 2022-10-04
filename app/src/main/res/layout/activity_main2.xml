@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#128C7E"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="400dp"
+
+        android:layout_centerInParent="true"
+        android:background="@drawable/card">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/user_profile"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/w10" />
+
+
+        <TextView
+            android:id="@+id/name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/user_profile"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="30dp"
+            android:text="Name :"
+            android:textColor="@color/white"
+            android:textSize="22dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/name_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/user_profile"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@id/name_tv"
+            android:text="Sandeep"
+            android:textColor="@color/white"
+            android:textSize="22dp">
+
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/roll_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name_tv"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="12dp"
+            android:text="Roll.No :"
+            android:textColor="@color/white"
+            android:textSize="22dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/roll_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name_user"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="12dp"
+            android:layout_toRightOf="@id/roll_tv"
+
+            android:text="21"
+            android:textColor="@color/white"
+            android:textSize="22dp">
+
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/skill_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/roll_tv"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="12dp"
+            android:text="Skills :"
+            android:textColor="@color/white"
+            android:textSize="22dp">
+
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/skill_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/roll_user"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="12dp"
+            android:layout_toRightOf="@id/skill_tv"
+            android:text="Java"
+            android:textColor="@color/white"
+            android:textSize="22dp">
+
+        </TextView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+
+            android:layout_alignParentRight="true"
+            android:text="IIT Bombay"
+            android:textColor="@color/white"
+            android:layout_marginRight="12dp"
+            android:textSize="15sp"
+            android:layout_marginBottom="9dp">
+
+        </TextView>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
